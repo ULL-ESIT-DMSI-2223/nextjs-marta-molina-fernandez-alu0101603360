@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./index.module.css";
+import styles from "./pet.module.css";
 import { Configuration, OpenAIApi } from "openai";
 
 const Image = () => {

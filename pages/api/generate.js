@@ -1,15 +1,15 @@
-import { Configuration, OpenAIApi } from "openai"; //Esto se ejecuta en el servidor por estar en /pages/api esto le llega al servidor con la solicitud del cliente, elabormaos parte de la respuesta el resto completado por servidor y se devuelve al cliente
+import { Configuration, OpenAIApi } from "openai";
 
 const configuration = new Configuration({
-  apiKey: process.env.OPENAI_API_KEY, //Nos devuleve el valor de la variable de entorno OPEN_API_KEY
+  apiKey: process.env.OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
 
-export default async function (req, res) { //No se saben cuando se van a llamar así que async y por ello desps hay q poner await
+export default async function (req, res) {
   const completion = await openai.createCompletion({
-    model: "text-davinci-002", //identificador del modelo que vas a usar de OpenAI, puedes pedir una lista
+    model: "text-davinci-002",
     prompt: generatePrompt(req.body.animal),
-    temperature: 0.6, //nivel de riesgos, cuanto más alto más creativo
+    temperature: 0.6,
   });
   res.status(200).json({ result: completion.data.choices[0].text });
 }
