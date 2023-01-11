@@ -7,7 +7,7 @@ const openai = new OpenAIApi(configuration);
 
 export default async function (req, res) { 
   const image = await openai.createImage({
-    prompt: generatePrompt(req.body.animal),
+    //prompt: generatePrompt(req.body.animal),
     n: 1,
     size: "1024x1024",
     temperature: 0.6,
