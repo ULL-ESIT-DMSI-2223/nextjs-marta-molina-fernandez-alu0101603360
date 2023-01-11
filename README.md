@@ -7,6 +7,7 @@
 4. [Dynamic Routes exercices](#id4)
   
 
+***
 ## Generador de nombres<a name="id1"></a>
 
 Primero completamos el código para la página generadora de nombres de index.js:
