@@ -1,5 +1,20 @@
-# Práctica NextJS, React, REST and Netlify
+# Informe práctica NextJS, React, REST and Netlify
 
+<!-- TABLE OF CONTENTS -->
+  <h3>Índice</h3>
+  <ol>
+    <li><a href="#Generadordenombres">Generador de nombres</a></li>
+    <li><a href="#Generadordeimágenes">Generador de imágenes</a></li>
+    <li><a href="#RESTexercises">REST exercises</a></li>
+    <li><a href="#DynamicRoutesexercices">Dynamic Routes exercices</a></li>
+  </ol>
+
+## Generador de nombres
+
+***
+## Generador de imágenes
+
+***
 ## REST exercises
 
 1. Todos los modelos:
@@ -25,3 +40,6 @@ El resultado textual en su totalidad se puede en este [enlace](./docs/src/all_mo
 5. Moderación: Classifies if text violates OpenAI's Content Policy
 
 ![img](./docs/images/moderation.png)
+
+***
+## Dynamic Routes exercices
