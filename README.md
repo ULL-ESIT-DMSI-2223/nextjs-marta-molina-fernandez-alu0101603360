@@ -9,12 +9,15 @@
     <li><a href="#Dynamic Routes exercices">Dynamic Routes exercices</a></li>
   </ol>
   
+  **ÍNDICE**
+  1. [Generador de nombres](#id1)
+  2. [Generador de imágenes](#id2)
   
 
-## Generador de nombres
+## Generador de nombres<a name="id1"></a>
 
 ***
-## Generador de imágenes
+## Generador de imágenes<a name="id2"></a>
 
 ***
 ## REST exercises
