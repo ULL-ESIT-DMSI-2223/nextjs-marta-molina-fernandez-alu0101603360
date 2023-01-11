@@ -12,7 +12,7 @@ export default async function (req, res) {
     size: "1024x1024",
     temperature: 0.6,
   });
-  res.status(200).json({ result: image.data.choices[0].url });
+  res.status(200).json({ result: image.data.choices[0].text });
 }
 
 /* function generatePrompt(animal) {
