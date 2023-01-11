@@ -1,7 +1,7 @@
+import Head from "next/head";
 import { useState } from "react";
 import styles from "./index.module.css";
-import { Configuration, OpenAIApi } from "openai";
-import Head from "next/head";
+
 
 export default function Home() {
   const [promptInput, setPrompt] = useState("");
@@ -43,7 +43,7 @@ export default function Home() {
           <input type="submit" value="Generate image" />
         </form>
         <br></br>
-        <img className="result-image" src={result}/>
+        <img className="result-image" src={result} />
       </main>
     </div>
   );
