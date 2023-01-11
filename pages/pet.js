@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Head from "next/head";
 import { useState } from "react";
-import styles from "./pet.module.css";
+import styles from "./index.module.css";
 
 /*
 */
