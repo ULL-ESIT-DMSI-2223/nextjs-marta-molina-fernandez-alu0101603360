@@ -36,7 +36,7 @@ Luego para adaptar el índice a la salida esperada cambiamos el texto para solic
 
 ![img](./docs/images/img_gen1.png)
 
-![img](./docs/images/img_gen1.png)
+![img](./docs/images/img_gen2.png)
 
 Ahora lo [desplegamos en Netlify](https://luxury-salmiakki-11bec4.netlify.app/) y vemos el resultado final:
 
