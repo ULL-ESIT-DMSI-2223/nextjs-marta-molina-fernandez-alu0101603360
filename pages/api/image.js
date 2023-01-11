@@ -10,7 +10,6 @@ export default async function (req, res) {
       prompt: req.body.prompt,
       n: 1,
       size: "1024x1024",
-      temperature: 0.6,
     });
     res.status(200).json({ result: image.data.data[0].url });
 }
