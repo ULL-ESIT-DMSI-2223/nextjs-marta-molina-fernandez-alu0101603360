@@ -1,2 +1,27 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=9620958)
-// Write your report here
+# Práctica NextJS, React, REST and Netlify
+
+## REST exercises
+
+1. Todos los modelos:
+
+![img](./docs/images/all_models.png)
+
+El resultado textual en su totalidad se puede en este [enlace](./docs/src/all_models.txt)
+
+2. Información sobre un modelo
+
+![img](./docs/images/one_model.png)
+
+3. Una imagen adorable
+
+![img](./docs/images/cute_img_texto.png)
+
+![img](./docs/images/cute_img.png)
+
+4. Completar una frase
+
+![img](./docs/images/completion.png)
+
+5. Moderación: Classifies if text violates OpenAI's Content Policy
+
+![img](./docs/images/moderation.png)
