@@ -3,7 +3,7 @@
 <!-- TABLE OF CONTENTS -->
   <h3>Índice</h3>
   <ol>
-    <li><a href="#Generadordenombres">Generador de nombres</a></li>
+    <li><a href="#Generador de nombres">Generador de nombres</a></li>
     <li><a href="#Generadordeimágenes">Generador de imágenes</a></li>
     <li><a href="#RESTexercises">REST exercises</a></li>
     <li><a href="#DynamicRoutesexercices">Dynamic Routes exercices</a></li>
