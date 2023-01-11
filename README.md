@@ -1,17 +1,10 @@
 # Informe práctica NextJS, React, REST and Netlify
-
-<!-- TABLE OF CONTENTS -->
-  <h3>Índice</h3>
-  <ol>
-    <li><a href="#Generador de nombres">Generador de nombres</a></li>
-    <li><a href="#Generadordeimágenes">Generador de imágenes</a></li>
-    <li><a href="#REST_exercises">REST exercises</a></li>
-    <li><a href="#Dynamic Routes exercices">Dynamic Routes exercices</a></li>
-  </ol>
   
-  **ÍNDICE**
-  1. [Generador de nombres](#id1)
-  2. [Generador de imágenes](#id2)
+**ÍNDICE**
+1. [Generador de nombres](#id1)
+2. [Generador de imágenes](#id2)
+3. [REST exercises](#id3)
+4. [Dynamic Routes exercices](#id4)
   
 
 ## Generador de nombres<a name="id1"></a>
@@ -20,7 +13,7 @@
 ## Generador de imágenes<a name="id2"></a>
 
 ***
-## REST exercises
+## REST exercises<a name="id3"></a>
 
 1. Todos los modelos:
 
@@ -47,4 +40,4 @@ El resultado textual en su totalidad se puede en este [enlace](./docs/src/all_mo
 ![img](./docs/images/moderation.png)
 
 ***
-## Dynamic Routes exercices
+## Dynamic Routes exercices<a name="id4></a>
