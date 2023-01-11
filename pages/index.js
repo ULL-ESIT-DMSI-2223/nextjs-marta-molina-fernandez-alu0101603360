@@ -8,7 +8,7 @@ export default function Home() {
 
   async function onSubmit(event) {
     event.preventDefault();
-    const response = await fetch("/api/image", {
+    const response = await fetch("/api/generate", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -23,11 +23,11 @@ export default function Home() {
     <div>
       <Head>
         <title>OpenAI Quickstart</title>
-        <link rel="icon" href="./../docs/images/animal_icon.png" />
+        <link rel="icon" href="/animal_icon.png" />
       </Head>
 
       <main className={styles.main}>
-        <img src="/dog.png" className={styles.icon} />
+        <img src="/animal_icon.png" className={styles.icon} />
         <h3>Animal photo generator</h3>
         <form onSubmit={onSubmit}>
           <input
