@@ -6,7 +6,7 @@
     <li><a href="#Generador de nombres">Generador de nombres</a></li>
     <li><a href="#Generadordeimágenes">Generador de imágenes</a></li>
     <li><a href="#RESTexercises">REST exercises</a></li>
-    <li><a href="#DynamicRoutesexercices">Dynamic Routes exercices</a></li>
+    <li><a href="#Dynamic Routes exercices">Dynamic Routes exercices</a></li>
   </ol>
 
 ## Generador de nombres
