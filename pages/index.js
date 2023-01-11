@@ -23,12 +23,12 @@ export default function Home() {
     <div>
       <Head>
         <title>OpenAI Quickstart</title>
-        <link rel="icon" href="/animal_icon.png" />
+        <link rel="icon" href="/dog.png" />
       </Head>
 
       <main className={styles.main}>
-        <img src="/animal_icon.png" className={styles.icon} />
-        <h3>Animal photo generator</h3>
+        <img src="/dog.png" className={styles.icon} />
+        <h3>Name my pet</h3>
         <form onSubmit={onSubmit}>
           <input
             type="text"
@@ -37,11 +37,10 @@ export default function Home() {
             value={animalInput}
             onChange={(e) => setAnimalInput(e.target.value)}
           />
-          <input type="submit" value="Generate image" />
+          <input type="submit" value="Generate names" />
         </form>
         <div className={styles.result}>{result}</div>
       </main>
     </div>
   );
 }
-
