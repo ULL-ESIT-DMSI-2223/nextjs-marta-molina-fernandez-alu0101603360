@@ -54,7 +54,7 @@ Primero creamos el índice:
 
 ![img](./docs/images/index.png)
 
-Estos enlaces nos llevan a las páginas /image, /pet y /404 que son los generadores y la página de error. La página image tiene el código anterior para la creación de imágenes, la de pet tiene también el mismo código generador de nombres que en el primer apartafo y finalmente la página 404 contiene:
+Estos enlaces nos llevan a las páginas /image, /pet y /404 que son los generadores y la página de error. La página image tiene el código anterior para la creación de imágenes, la de pet tiene también el mismo código generador de nombres que en el primer apartado y finalmente la página 404 contiene:
 
 ![img](./docs/images/404.png)
 
