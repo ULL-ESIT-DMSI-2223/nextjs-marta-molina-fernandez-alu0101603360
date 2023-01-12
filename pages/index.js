@@ -1,94 +1,28 @@
+import Link from 'next/link'
 import Head from "next/head";
-import { useState } from "react";
 import styles from "./index.module.css";
 
-
-export default function Home() {
-  const [promptInput, setPrompt] = useState("");
-  const [result, setResult] = useState("");
-
-
-  async function onSubmit(event) {
-    event.preventDefault();
-    const response = await fetch("/api/image", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ prompt: promptInput }),
-    });
-    const data = await response.json();
-    setResult(data.result);
-    setPrompt("");
-  };
+function Home() {
 
   return (
     <div>
       <Head>
-        <title>OpenAI Quickstart</title>
+        <title>Inicio</title>
         <link rel="icon" href="/photo_icon.png" />
       </Head>
 
       <main className={styles.main}>
         <img src="/photo_icon.png" className={styles.icon} />
-        <h3>Photo generator</h3>
-        <form onSubmit={onSubmit}>
-          <input
-            type="text"
-            name="animal"
-            placeholder="Ej. Green horse with purple eyes"
-            value={promptInput}
-            onChange={(e) => setPrompt(e.target.value)}
-          />
-          <input type="submit" value="Generate image" />
-        </form>
+        <h2>Inicio</h2>
+        <h3>Eliga un enlace</h3>
+        <Link href="/pet"> Generador de nombres para tu mascota </Link>
         <br></br>
-        <img className="result-image" src={result} />
+        <Link href="/image">Generador de imágenes</Link>
+        <br></br>
+        <Link href="/404">Página de error</Link>
       </main>
     </div>
-  );
-
+  )
 }
 
-/* export default function Home() {
-  const [animalInput, setAnimalInput] = useState("");
-  const [result, setResult] = useState();
-
-  async function onSubmit(event) {
-    event.preventDefault();
-    const response = await fetch("/api/generate", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ animal: animalInput }),
-    });
-    const data = await response.json();
-    setResult(data.result);
-    setAnimalInput("");
-  }
-  return (
-    <div>
-      <Head>
-        <title>OpenAI Quickstart</title>
-        <link rel="icon" href="/dog.png" />
-      </Head>
-
-      <main className={styles.main}>
-        <img src="/dog.png" className={styles.icon} />
-        <h3>Name my pet</h3>
-        <form onSubmit={onSubmit}>
-          <input
-            type="text"
-            name="animal"
-            placeholder="Enter an animal"
-            value={animalInput}
-            onChange={(e) => setAnimalInput(e.target.value)}
-          />
-          <input type="submit" value="Generate names" />
-        </form>
-        <div className={styles.result}>{result}</div>
-      </main>
-    </div>
-  );
-} */
+export default Home
