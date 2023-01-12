@@ -3,8 +3,9 @@
 **ÍNDICE**
 1. [Generador de nombres](#id1)
 2. [Generador de imágenes](#id2)
-3. [REST exercises](#id3)
-4. [Dynamic Routes exercices](#id4)
+3. [Página completa](#id5)
+4. [REST exercises](#id3)
+5. [Dynamic Routes exercices](#id4)
   
 
 ***
@@ -46,6 +47,36 @@ Ahora lo [desplegamos en Netlify](https://luxury-salmiakki-11bec4.netlify.app/) 
 
 ![img](./docs/images/pag_img3.png)
 
+***
+## Página completa<a name="id5"></a>
+
+Primero creamos el índice:
+
+![img](./docs/images/index.png)
+
+Estos enlaces nos llevan a las páginas /image, /pet y /404 que son los generadores y la página de error. La página image tiene el código anterior para la creación de imágenes, la de pet tiene también el mismo código generador de nombres que en el primer apartafo y finalmente la página 404 contiene:
+
+![img](./docs/images/404.png)
+
+La única diferencia de las páginas image y pet con lo visto anteriormente es que en ambas se ha incluído un enlace para volver a la página de inicio:
+
+![img](./docs/images/ini.png)
+
+Ahora mostramos la estructura del proyecto:
+
+![img](./docs/images/estructura.png)
+
+Finalmente observamos su [despliegue en Netlify](https://grand-strudel-87fb30.netlify.app/)
+
+![img](./docs/images/final_site1.png)
+
+![img](./docs/images/final_site2.png)
+
+![img](./docs/images/final_site3.png)
+
+![img](./docs/images/final_site4.png)
+
+![img](./docs/images/final_site5.png)
 
 ***
 ## REST exercises<a name="id3"></a>
