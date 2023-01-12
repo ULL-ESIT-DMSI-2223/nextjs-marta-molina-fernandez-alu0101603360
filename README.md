@@ -62,6 +62,16 @@ La única diferencia de las páginas image y pet con lo visto anteriormente es q
 
 ![img](./docs/images/ini.png)
 
+También se ha cambiado el nombre de la pestaña de la ventana:
+
+![img](./docs/images/Head3.png)
+
+![img](./docs/images/Head4.png)
+
+![img](./docs/images/Head1.png)
+
+![img](./docs/images/Head2.png)
+
 Ahora mostramos la estructura del proyecto:
 
 ![img](./docs/images/estructura.png)
